@@ -1,0 +1,23 @@
+#Card{
+    height: 330px;
+    width: 300px; 
+}
+
+#cardContents{
+    position: absolute;
+    height: 330px;
+    width: 300px; 
+}
+
+#detailContainer{
+    height: 300px;
+    width: 270px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+h2 {
+    font-weight: 50;
+}
+
