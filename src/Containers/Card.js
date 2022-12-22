@@ -20,7 +20,7 @@ class Card extends Component {
         {!this.state.details && ( //default view
         <div id="cardContents">
           <div>
-            <img alt='person' src={`https://flathash.com/${id}`} width='200px' height='200px'/>
+            <img alt='person' src={`https://robohash.org/${id}?set=set5`} width='200px' height='200px'/>
             <div id="info">
                 <h2><strong>{name}</strong></h2>
                 <p>{email}</p>
